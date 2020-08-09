@@ -1,7 +1,7 @@
 {
   "name": "@miraclesoft/http-logger",
-  "version": "0.0.4",
-  "description": "Morgan and Winston based http logger with predefined settings for prod and non-prod environments",
+  "version": "0.0.5",
+  "description": "Morgan and Winston based http logger for Express with predefined settings for prod and non-prod environments",
   "main": "src/app.js",
   "keywords": [
     "logger",
