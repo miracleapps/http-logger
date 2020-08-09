@@ -2,7 +2,7 @@
 
 Morgan and Winston based http logger with predefined settings for prod and non-prod environments.
 
-**_Note_**_: This is a beta version of this formatter created for internal use by Miracle Apps, Miracle Software Systems, Inc.'s internal app development wing. Please submit any issues (or) feedback [here](https://github.com/miracleapps/eslint-formatter-html/issues)._
+**_Note_**_: This is a beta version of this module created for internal use by Miracle Apps, Miracle Software Systems, Inc.'s internal app development wing. Please submit any issues (or) feedback [here](https://github.com/miracleapps/eslint-formatter-html/issues)._
 
 ## Usage
 
