@@ -1,6 +1,6 @@
 {
   "name": "@miraclesoft/http-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Morgan and Winston based http logger with predefined settings for prod and non-prod environments",
   "main": "src/app.js",
   "keywords": [
@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "logform": "^2.2.0",
+    "morgan": "^1.10.0",
     "winston": "^3.3.3",
     "winston-daily-rotate-file": "^4.5.0"
   }

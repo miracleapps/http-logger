@@ -1,4 +1,5 @@
 const winston = require('winston');
+const morgan = require('morgan');
 
 require('winston-daily-rotate-file');
 const { format } = require('logform');
@@ -52,4 +53,11 @@ httpLogger.stream = {
   },
 };
 
-module.exports = httpLogger;
+const httpLoggerMiddleware = morgan(
+  ':remote-addr :method :url :status :response-time ms',
+  {
+    stream: httpLogger.stream,
+  }
+);
+
+module.exports = httpLoggerMiddleware;
