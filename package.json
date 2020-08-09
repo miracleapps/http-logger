@@ -1,0 +1,37 @@
+{
+  "name": "@miraclesoft/http-logger",
+  "version": "0.0.1",
+  "description": "Morgan and Winston based http logger with predefined settings for prod and non-prod environments",
+  "main": "src/app.js",
+  "keywords": [
+    "logger",
+    "winston",
+    "morgan"
+  ],
+  "author": "Chanakya Lokam",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miracleapps/http-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miracleapps/http-logger/issues"
+  },
+  "homepage": "https://github.com/miracleapps/http-logger#readme",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "logform": "^2.2.0",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  }
+}
