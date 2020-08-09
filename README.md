@@ -1,8 +1,10 @@
 # @miraclesoft/http-logger
 
+![version](https://img.shields.io/badge/dynamic/json?color=orange&label=version&prefix=%20&query=version&suffix=%20&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmiracleapps%2Fhttp-logger%2Fmaster%2Fpackage.json) ![license](https://img.shields.io/badge/dynamic/json?color=blue&label=license&query=license&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmiracleapps%2Fhttp-logger%2Fmaster%2Fpackage.json)
+
 Morgan and Winston based http logger with predefined settings for prod and non-prod environments.
 
-**_Note_**_: This is a beta version of this module created for internal use by Miracle Apps, Miracle Software Systems, Inc.'s internal app development wing. Please submit any issues (or) feedback [here](https://github.com/miracleapps/eslint-formatter-html/issues)._
+**_Note_**_: This is a beta version of this module created for internal use by Miracle Apps, Miracle Software Systems, Inc.'s internal app development wing. Please submit any issues (or) feedback [here](https://github.com/miracleapps/http-logger/issues)._
 
 ## Usage
 
